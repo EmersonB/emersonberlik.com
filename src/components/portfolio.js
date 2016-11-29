@@ -51,7 +51,7 @@ class Portfolio extends Component {
             </ul>
             </nav>
             <div className="contact-info col-xs-offset-4 col-xs-18 col-sm-offset-2 col-sm-6 col-md-offset-2 col-md-4">
-            <h6 className="phone-number">(540) 554-2412</h6>
+            <h6 className="phone-number">(571) 327-6988</h6>
         <a encode="javascript" href="mailto:eberlik@gmail.com">eberlik@gmail.com</a>
         </div>
         <div className="colophon col-xs-offset-4 col-xs-18 col-sm-offset-2 col-sm-6 col-md-offset-2 col-md-4">
