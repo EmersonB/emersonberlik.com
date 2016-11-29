@@ -15,7 +15,7 @@ class About extends Component {
             <a href="http://www.emersonberlik.com/">Portfolio</a>
             </h5>
             <h5 className="is-active x-small">
-            <a href="http://www.emersonberlik.com/#/about" onClick={()=>window.location.reload()}>About</a>
+            <a href="http://www.emersonberlik.com/#/about" onclick={function(){window.location.reload();}}>About</a>
             </h5>
             </nav>
             </header>
@@ -76,7 +76,7 @@ class About extends Component {
             <h6><a href="http://www.emersonberlik.com/">Portfolio</a></h6>
             </li>
             <li className="is-active">
-            <h6><a href="http://www.emersonberlik.com/#/about" onClick={()=>window.location.reload()}>About</a></h6>
+            <h6><a href="http://www.emersonberlik.com/#/about" onclick={function(){window.location.reload();}}>About</a></h6>
             </li>
             </ul>
             </nav>
