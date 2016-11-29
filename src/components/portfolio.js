@@ -15,7 +15,7 @@ class Portfolio extends Component {
             <a href="http://www.emersonberlik.com/">Portfolio</a>
             </h5>
             <h5 className="x-small">
-            <a href="http://www.emersonberlik.com/#/about">About</a>
+            <Link to="/about" onClick={()=>window.location.reload()}>About</Link>
             </h5>
             </nav>
             </header>
