@@ -41,7 +41,7 @@ class About extends Component {
             Proficiencies.
         &nbsp;
     </h5>
-        <span>I have experience with both front-end and back-end web development, however I am more knoledgable in the former of the two. I have also had a great deal of interaction with Node.js and React.js. </span>
+        <span>I have experience with both front-end and back-end web development, however I am more knowledgeable in the former of the two. I have also had a great deal of interaction with Node.js and React.js. </span>
         </div>
         <div className="col-xs-offset-2 col-xs-22 col-sm-10 col-md-6 col-lg-4 animated">
             <h5>
