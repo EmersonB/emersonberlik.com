@@ -76,7 +76,7 @@ class About extends Component {
             <h6><a href="http://www.emersonberlik.com/">Portfolio</a></h6>
             </li>
             <li className="is-active">
-            <h6><a href="http://www.emersonberlik.com/#/about">About</a></h6>
+            <h6><Link to="/about" onClick={()=>window.location.reload()}>About</Link></h6>
             </li>
             </ul>
             </nav>
