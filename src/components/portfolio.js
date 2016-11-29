@@ -15,7 +15,7 @@ class Portfolio extends Component {
             <a href="http://www.emersonberlik.com/">Portfolio</a>
             </h5>
             <h5 className="x-small">
-            <a href="http://www.emersonberlik.com/#/about" onFocus={()=>window.location.reload()}>About</a>
+            <a href="http://www.emersonberlik.com/#/about" onClick={()=>window.location.reload()} onFocus={()=>window.location.reload()}>About</a>
             </h5>
             </nav>
             </header>
@@ -46,7 +46,7 @@ class Portfolio extends Component {
             <h6><a href="http://www.emersonberlik.com/">Portfolio</a></h6>
             </li>
             <li>
-            <h6><a href="http://www.emersonberlik.com/#/about" onFocus={()=>window.location.reload()}>About</a></h6>
+            <h6><a href="http://www.emersonberlik.com/#/about" onClick={()=>window.location.reload()} onFocus={()=>window.location.reload()}>About</a></h6>
             </li>
             </ul>
             </nav>
