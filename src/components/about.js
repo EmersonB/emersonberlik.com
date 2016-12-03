@@ -7,15 +7,15 @@ class About extends Component {
             <div>
             <header className="row">
             <div className="logo col-xs-offset-1 col-xs-7 col-sm-offset-2 col-sm-6">
-            <a href="http://www.emersonberlik.com/"><img src="img/emersonlogo.png"/>
-            </a>
+            <Link to="/"><img src="img/emersonlogo.png"/>
+            </Link>
             </div>
             <nav className="top-nav col-xs-17 col-sm-offset-2 col-sm-14">
             <h5 className="x-small">
-            <a href="http://www.emersonberlik.com/">Portfolio</a>
+            <Link to="/">Portfolio</Link>
             </h5>
             <h5 className="is-active x-small">
-            <a href="http://www.emersonberlik.com/#/about" onClick={function(){window.location.reload();}}>About</a>
+            <Link href="/about">About</Link>
             </h5>
             </nav>
             </header>
@@ -33,31 +33,31 @@ class About extends Component {
             </div>
             </div>
             <div className="philosophy row">
-            <div className="col-xs-offset-2 col-xs-22 text-center animated">
+            <div className="col-xs-offset-2 col-xs-22 text-center">
             <h2>More About me</h2>
         </div>
-        <div className="col-xs-offset-2 col-xs-22 col-sm-10 col-md-6 col-lg-4 animated">
+        <div className="col-xs-offset-2 col-xs-22 col-sm-10 col-md-6 col-lg-4">
             <h5>
             Proficiencies.
         &nbsp;
     </h5>
         <span>I have experience with both front-end and back-end web development, however I am more knowledgeable in the former of the two. I have also had a great deal of interaction with Node.js and React.js. </span>
         </div>
-        <div className="col-xs-offset-2 col-xs-22 col-sm-10 col-md-6 col-lg-4 animated">
+        <div className="col-xs-offset-2 col-xs-22 col-sm-10 col-md-6 col-lg-4">
             <h5>
             Academics.
     &nbsp;
     </h5>
         <span>I have attempted to maintain a curriculum with a strong focus in computer-science. Throughout my courses I have had much exposure to Java, Python and Android Studio. I am also experienced with different data structures.</span>
         </div>
-        <div className="col-xs-offset-2 col-xs-22 col-sm-10 col-md-6 col-lg-4 animated">
+        <div className="col-xs-offset-2 col-xs-22 col-sm-10 col-md-6 col-lg-4">
             <h5>
             Qualification.
         &nbsp;
     </h5>
         <span>I am currently the webmaster for Thomas Jefferson High School's mobile app club. I am also currently working on the website for our chess team.</span>
         </div>
-        <div className="col-xs-offset-2 col-xs-22 col-sm-10 col-md-6 col-lg-4 animated">
+        <div className="col-xs-offset-2 col-xs-22 col-sm-10 col-md-6 col-lg-4">
             <h5>
             Experience.
         &nbsp;
@@ -73,10 +73,10 @@ class About extends Component {
             <nav className="bottom-nav col-xs-offset-4 col-xs-18 col-sm-offset-2 col-sm-6 col-md-offset-2 col-md-4">
             <ul>
             <li>
-            <h6><a href="http://www.emersonberlik.com/">Portfolio</a></h6>
+            <h6><Link to="/">Portfolio</Link></h6>
             </li>
             <li className="is-active">
-            <h6><a href="http://www.emersonberlik.com/#/about" onClick={function(){window.location.reload();}}>About</a></h6>
+            <h6><Link to="/about" >About</Link></h6>
             </li>
             </ul>
             </nav>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link,Router, Route, IndexRoute, hashHistory } from "react-router";
+
 class Portfolio extends Component {
 
     render(){
@@ -7,19 +8,19 @@ class Portfolio extends Component {
             <div>
             <header className="row">
             <div className="logo col-xs-offset-1 col-xs-7 col-sm-offset-2 col-sm-6">
-            <a href="http://www.emersonberlik.com/"><img src="img/emersonlogo.png"/>
-            </a>
+            <Link to="/"><img src="img/emersonlogo.png"/>
+            </Link>
             </div>
             <nav className="top-nav col-xs-17 col-sm-offset-2 col-sm-14">
             <h5 className="is-active x-small">
-            <a href="http://www.emersonberlik.com/">Portfolio</a>
+            <Link to="/">Portfolio</Link>
             </h5>
             <h5 className="x-small">
-            <a href="http://www.emersonberlik.com/#/about" onClick={function(){window.location.reload();}}>About</a>
+            <Link to="/about">About</Link>
             </h5>
             </nav>
             </header>
-            <div className="home-projects animated fadeInUp">
+            <div className="home-projects ">
             <section className="cover-photos row text-centered">
             <div className="col-xs-offset-1 col-xs-24 square ">
             <a href="https://honorcodedev.herokuapp.com">
@@ -43,10 +44,10 @@ class Portfolio extends Component {
             <nav className="bottom-nav col-xs-offset-4 col-xs-18 col-sm-offset-2 col-sm-6 col-md-offset-2 col-md-4">
             <ul>
             <li className="is-active">
-            <h6><a href="http://www.emersonberlik.com/">Portfolio</a></h6>
+            <h6><Link to="/">Portfolio</Link></h6>
             </li>
             <li>
-            <h6><a href="http://www.emersonberlik.com/#/about" onClick={function(){window.location.reload();}}>About</a></h6>
+            <h6><Link to="/about">About</Link></h6>
             </li>
             </ul>
             </nav>
