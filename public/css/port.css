@@ -3618,3 +3618,66 @@ body.life360 {
         margin-top: 5.25rem
     }
 }
+
+.container3{
+
+    /* How pronounced should the 3D effects be */
+    perspective: 800px;
+    -webkit-perspective: 800px;
+
+    background: transparent;
+    width:480px;
+    height:480px;
+    margin:0 auto;
+    border-radius:6px;
+    position:relative;
+}
+
+.iphone-front,
+.iphone-back{
+
+    /* Enable 3D transforms */
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+
+    /* We are using two separate divs for the front and back of the
+       phone. This will hide the divs when they are flipped, so that the
+       opposite side can be seen:  */
+
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+
+    width:400px;
+    height:666px;
+
+    position:absolute;
+    top:50%;
+    left:30%;
+    margin:-166px 0 0 -100px;
+
+    background:url(../img/iphone.png) no-repeat left center;
+
+    /* Animate the transitions */
+    transition:0.8s;
+}
+
+.iphone-back{
+
+    /* The back side is flipped 180 deg by default */
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+
+    background-position:right center;
+}
+
+.container3:hover .iphone-front{
+    /* When the container is hovered, flip the front side and hide it .. */
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+}
+
+.container3:hover .iphone-back{
+    /* .. at the same time flip the back side into visibility */
+    transform:rotateY(360deg);
+    -webkit-transform:rotateY(360deg);
+}
