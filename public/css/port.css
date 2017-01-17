@@ -1791,6 +1791,20 @@ h6 {
     margin-top: 0
 }
 
+.header7 {
+    color: #000000;
+    font-family: "Times New Roman";
+    font-size: 15px;
+
+}
+.h7 {
+    color: #000000;
+    font-family: "Times New Roman";
+    font-size: 10px;
+    letter-spacing: 0px;
+
+}
+
 h1.body-font,
 h2.body-font,
 h3.body-font,
