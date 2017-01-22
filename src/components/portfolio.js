@@ -22,7 +22,7 @@ class Portfolio extends Component {
             </header>
             <div className="home-projects ">
             <section className="cover-photos row text-centered">
-            <div className="col-xs-offset-1 col-xs-24 square ">
+            <div className="col-xs-offset-1 col-xs-12 square ">
             <a href="https://honorcodedev.herokuapp.com">
             <div className="blobs">
             <div className="blob">1</div>
@@ -31,12 +31,29 @@ class Portfolio extends Component {
             <div className="blob">4</div>
             </div>
                 </a>
-            <img src="img/macbook.png"/>
+            <img src="img/macbooksh.png"/>
             </div>
+
+
+            <div className="col-xs-offset-1 col-xs-12 square ">
+            <Link to= "/map">
+            <div className="blobs">
+            <div className="blob">1</div>
+            <div className="blob">2</div>
+            <div className="blob">3</div>
+            <div className="blob">4</div>
+            </div>
+            </Link>
+            <img src="img/macbookmap.png"/>
+            </div>
+            </section>
+            <section className="cover-photos row text-centered">
+
 
 
             </section>
             </div>
+
             <footer className="row">
             <div className="footer-logo col-xs-offset-4 col-xs-18 col-sm-offset-2 col-md-offset-2 col-md-4">
             <img src="img/emersonlogo.png"/>
